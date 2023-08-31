@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img{display: block;
+    margin:40px 95px 30px 360px;
+    width: 800px;
+    max-height: 600px;
+    position: relative;
+    z-index: -3;
+}
+
+#une{
+   display: block;
+   position:absolute;
+   background: white;
+   width: 300px;
+   height: 330px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.254);
+   left: 9em;
+   top: 9em;
+   -webkit-backdrop-filter: blur(15px); /* assure la compatibilité avec safari */
+    backdrop-filter: blur(15px);
+    background-color: rgba(182, 182, 182, 0.2);
+}
+a{
+    position: absolute;
+    display: block;
+    background: #cba97c;
+    font-size: 15px;
+    text-decoration: none;
+    width: 159px;
+    height: 30px;
+    color: black;
+    left: 13em;
+    top: 28em;
+    text-align: center;
+}
+
+h1{
+    font-size: 27px;
+    padding:30px;
+    font-weight: 400;
+}
+p{
+    font-size: 15px;
+    padding: 20px;
+}
+
+#trois{
+    display: block;
+    background: white;
+    width: 60px;
+    height: 60px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.307);
+    left: 70em;
+    bottom: 2px;
+    position: absolute;
+    -webkit-backdrop-filter: blur(15px); /* assure la compatibilité avec safari */
+    backdrop-filter: blur(15px);
+    background-color: rgba(182, 182, 182, 0.2);
+    
+}
+
